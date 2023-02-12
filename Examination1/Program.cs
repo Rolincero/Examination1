@@ -10,7 +10,13 @@ namespace Examination1
     {
         static void Main()
         {
-
+            var arr = new string[]
+            {
+            "hello",
+            "2",
+            "World",
+            ":-)"
+            };
         }
     }
 }
