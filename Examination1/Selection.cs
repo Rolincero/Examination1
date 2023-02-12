@@ -8,5 +8,6 @@ namespace Examination1
 {
     internal class Selection
     {
+        public static string[] Under4(string[] arr) => arr.Select(x => x).Where(x => x.Length < 4).ToArray();
     }
 }

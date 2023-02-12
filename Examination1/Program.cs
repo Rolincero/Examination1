@@ -17,6 +17,14 @@ namespace Examination1
             "World",
             ":-)"
             };
+
+            arr = Selection.Under4(arr);
+
+            Console.Write("Результат: ");
+            foreach (var item in arr) 
+            {
+                Console.Write(item + " ");
+            }
         }
     }
 }
